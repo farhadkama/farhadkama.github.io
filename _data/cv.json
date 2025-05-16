@@ -1,14 +1,14 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Farhad Kamarei",
+    "email": "kamarei2@illinois.edu",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://farhadkama.github.io",
+    "summary": "Currently employed at University of Illinois Urbana-Champaign. PhD candidate at UIUC working on numerical methods for PDEs in theoretical and applied mechanics",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Urbana, Illinois",
       "countryCode": "US",
       "region": ""
     },
@@ -16,17 +16,27 @@
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?hl=en&user=h_RqHjAAAAAJ"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/0000-0002-9653-1345"
+      },
+      {
+        "network": "ResearchGate",
+        "username": "",
+        "url": "https://www.researchgate.net/profile/Farhad-Kamarei?ev=hdr_xprf"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "farhadkama",
+        "url": "https://github.com/farhadkama"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "farhad-kamarei-uiuc",
+        "url": "https://www.linkedin.com/in/farhad-kamarei-uiuc"
       }
     ]
   },
@@ -66,32 +76,11 @@
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "The poker-chip experiments of synthetic elastomers explained",
+      "publisher": "Journal of the Mechanics and Physics of Solids",
+      "releaseDate": "2024-07-1",
+      "website": "https://doi.org/10.1016/j.jmps.2024.105683",
+      "summary": ""
     }
   ],
   "presentations": [
@@ -99,7 +88,7 @@
       "name": "Talk 1 on Relevant Topic in Your Field",
       "event": "UC San Francisco, Department of Testing",
       "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
+      "location": "Chicago, IL, USA",
       "description": ""
     },
     {
