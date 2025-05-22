@@ -20,12 +20,15 @@ I'm a Ph.D. candidate at University of Illinois Urbana Champaign in the Civil an
   <img src="/images/university_logo.png" alt="University Logo" width="250"/>
   <img src="/images/department_logo.png" alt="Department Logo" width="500"/>
 </p>
-I am interesed in solving partial differential equations, both numerically and theoretically, with application to applied mechanics.
+My research focuses on the theoretical and numerical analysis of partial differential equations, with applications in applied mechanics and physics of soft solids.
 
 My Reseach
 ======
 My research focuses on the theory of fracture in dissipative material via the phase-field regularization. Specefically, my thesis title is
 
+<p align="center">
+  <img src="/images/PS_web.jpeg" alt="Pure shear test" width="250"/>
+</p>
 
 Publications
 ======
