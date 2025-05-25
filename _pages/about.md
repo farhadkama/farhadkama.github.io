@@ -14,17 +14,27 @@ Welcome to my website!! It is currently under development
 
 About me
 ======
+
 I'm a Ph.D. candidate at University of Illinois Urbana Champaign in the Civil and Environmental Engineering Depatrment. I am doing my Ph.D. under supervison of [Prof. Oscar Lopez-Pamies](https://pamies.cee.illinois.edu/).
+
 
 <p align="center">
   <img src="/images/university_logo.png" alt="University Logo" width="250"/>
   <img src="/images/department_logo.png" alt="Department Logo" width="500"/>
 </p>
-My research focuses on the theoretical and numerical analysis of partial differential equations, with applications in applied mechanics and physics of soft solids.
+
+<div style="text-align: justify;">
+I develop mathematical models and computational frameworks for solving partial differential equations, with a focus on applications in mechanics and physics of soft solids.
+</div>
+
 
 My Reseach
 ======
-My research focuses on the theory of fracture in dissipative material via the phase-field regularization. Specefically, my thesis title is
+
+<div style="text-align: justify;">
+I am currently developing theoretical and numerical frameworks for the phase-field approach to fracture mechanics, with particular emphasis on systems under quasistatic and monotonically increasing loading conditions.
+My doctoral research, titled "Nucleation and Propagation of Fracture in Viscoelastic Elastomers: A Complete Phase-Field Theory and Robust Numerical Implementation," presents a comprehensive theory and numerical framework for modeling crack nucleation and propagation in dissipative materials. This work advances our understanding of fracture behavior in complex material systems and provides robust computational tools for predicting fracture mechanisms.
+</div>
 
 <p align="center">
   <img src="/images/PS_web.jpeg" alt="Pure shear test" width="250"/>
