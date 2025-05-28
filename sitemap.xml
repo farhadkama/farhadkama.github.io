@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <!-- Homepage - highest priority -->
+   <url>
+      <loc>https://farhadkama.github.io/</loc>
+      <lastmod>2025-05-28</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+   </url>
+   
+   <!-- Publications page -->
+   <url>
+      <loc>https://farhadkama.github.io/publications/</loc>
+      <lastmod>2025-05-28</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   
+   <!-- Talks page -->
+   <url>
+      <loc>https://farhadkama.github.io/talks/</loc>
+      <lastmod>2025-05-28</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   
+   <!-- Teaching page -->
+   <url>
+      <loc>https://farhadkama.github.io/teaching/</loc>
+      <lastmod>2025-05-28</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url>
+   
+   <!-- Year archive page -->
+   <url>
+      <loc>https://farhadkama.github.io/year-archive/</loc>
+      <lastmod>2025-05-28</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+   
+   <!-- CV page -->
+   <url>
+      <loc>https://farhadkama.github.io/cv/</loc>
+      <lastmod>2025-05-28</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>
