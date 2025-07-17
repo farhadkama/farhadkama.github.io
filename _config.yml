@@ -24,7 +24,7 @@ author:
   # Biographic information
   avatar           : "profile.jpg"
   name             : "Farhad Kamarei"
-  pronouns         : "he/him"  
+  pronouns         : #"he/him"  
   bio              : "PhD candidate at UIUC working on numerical methods for PDEs in theoretical and applied mechanics"
   location         : "Urbana, Illinois"
   employer         : "University of Illinois Urbana-Champaign"
