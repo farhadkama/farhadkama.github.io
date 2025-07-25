@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my website!! It is currently under development
+Welcome to my website!!
 
 
 
@@ -32,8 +32,8 @@ My Reseach
 ======
 
 <div style="text-align: justify;">
-I am currently developing theoretical and numerical frameworks for the phase-field approach to fracture mechanics, with particular emphasis on systems under quasistatic and monotonically increasing loading conditions.
-My doctoral research, titled "Nucleation and Propagation of Fracture in Viscoelastic Elastomers: A Complete Phase-Field Theory and Robust Numerical Implementation," presents a comprehensive theory and numerical framework for modeling crack nucleation and propagation in dissipative materials. This work advances our understanding of fracture behavior in complex material systems and provides robust computational tools for predicting fracture mechanisms.
+I am currently developing theoretical and numerical frameworks for the phase-field approach to fracture mechanics, under quasistatic and monotonically increasing loading conditions.
+My doctoral research, titled "Nucleation and Propagation of Fracture in Viscoelastic Elastomers: A Complete Phase-Field Theory and Robust Numerical Implementation," presents a comprehensive theory and numerical framework for modeling crack nucleation and propagation in viscoelastic elastomers. This work advances our understanding of fracture behavior for a more general and  complex material behavior and provides robust computational tools for predicting fracture mechanisms.
 </div>
 
 <p align="center">
