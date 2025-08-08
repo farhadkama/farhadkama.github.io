@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D. in Civil Engineering, University of Illinois Urbana Champaign, 2026 (expected)
+* Ph.D. in Civil Engineering — Computational Science and Engineering Concentration, University of Illinois Urbana-Champaign, 2026 (expected)
 * M.Sc. in Mechanical Engineering, Amirkabir University of Technology (Tehran Polytechnic), 2022
 * B.Sc. in Mechanical Engineering, Amirkabir University of Technology (Tehran Polytechnic), 2019
 
