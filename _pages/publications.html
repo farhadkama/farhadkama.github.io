@@ -6,31 +6,45 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <p>
+    You can also find my articles on 
+    <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
+  </p>
 {% endif %}
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
+<!-- Publications section -->
+<h2>Publications list</h2>
+<hr />
+
+{% assign pubs = site.publications | reverse %}
+{% assign total = pubs | size %}
+{% assign counter = total %}
+
+<div style="font-size: 0.9em;">
+  {% for post in pubs %}
+    <div style="margin-bottom: 0.7em;">
+      <!-- Number + Title inline -->
+      <span>[{{ counter }}]</span>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+
+      <!-- Authors / journal info -->
+      {% if post.citation %}
+        <span> — {{ post.citation }}</span>
       {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
 
-
+      <!-- Links at the end -->
+      <span style="margin-left: 1em;">
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}">Download paper</a>
+        {% endif %}
+        {% if post.researchgate %}
+          | <a href="{{ post.researchgate }}">View on ResearchGate</a>
+        {% endif %}
+      </span>
+    </div>
+    {% assign counter = counter | minus: 1 %}
+  {% endfor %}
+</div>
 
