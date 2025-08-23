@@ -1,33 +1,29 @@
 <span>
   <!-- Title -->
-  <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  <a href="{{ post.url | relative_url }}">{{ post.title }}</a>,
 
-  <!-- Date -->
   {% if post.date %}
-   , {{ post.date | date: "%B %d, %Y" }}
+    {{ post.date | date: "%B %d, %Y," }}
   {% endif %}
 
-  <!-- Venue -->
   {% if post.venue %}
-   , {{post.venue}}
+    {{ post.venue }},
   {% endif %}
 
-  <!-- Location -->
   {% if post.location %}
-    , {{post.location}}
+    {{ post.location }}
   {% endif %}
 
   <!-- Extra links -->
   {% if post.slides or post.event %}
     <span style="margin-left: 1em;">
       {% if post.slides %}
-        <a href="{{ post.slides}}">Slides</a>
+        <a href="{{ post.slides }}">Slides</a>
       {% endif %}
       {% if post.event %}
         {% if post.slides %}|{% endif %}
-        <a href="{{ post.event}}">Event page</a>
+        <a href="{{ post.event }}">Event page</a>
       {% endif %}
     </span>
   {% endif %}
 </span>
-
