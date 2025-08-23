@@ -6,11 +6,25 @@ author_profile: true
 ---
 
 {% if site.talkmap_link == true %}
-
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
+  <p>
+    You can also see a map of all the places I've given a talk: 
+    <a href="/talkmap.html">Talk Map</a>.
+  </p>
 {% endif %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+<h2>Conference Presentations</h2>
+<hr />
+
+{% assign talks = site.talks | reverse %}
+{% assign total = talks | size %}
+{% assign counter = total %}
+
+<div style="font-size: 0.9em;">
+  {% for post in talks %}
+    <div style="margin-bottom: 0.7em;">
+      <!-- Number + talk inline -->
+      [{{ counter }}] {% include archive-single-talk.html %}
+    </div>
+    {% assign counter = counter | minus: 1 %}
+  {% endfor %}
+</div>
