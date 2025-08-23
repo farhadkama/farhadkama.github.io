@@ -7,6 +7,14 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<h2>Teaching Assistant</h2>
+<hr />
+
+<div style="font-size: 0.9em;">
+  {% for post in site.teaching reversed %}
+    <div style="margin-bottom: 0.6em;">
+      {% include archive-single.html %}
+    </div>
+  {% endfor %}
+</div>
+
