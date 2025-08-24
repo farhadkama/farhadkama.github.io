@@ -15,27 +15,55 @@ Education
 * M.Sc. in Mechanical Engineering, Amirkabir University of Technology (Tehran Polytechnic), 2022
 * B.Sc. in Mechanical Engineering, Amirkabir University of Technology (Tehran Polytechnic), 2019
 
-Research  experience
+Research experience
 ======
-
-* Fall 2022 - Current: Graduate Research Assistant
+* Fall 2022 - Current: Graduate Research Assistant  
   * Prof. Lopez-Pamies' Research Group
 
 Publications
 ======
-   <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+<ul style="list-style: none; padding-left: 0; font-size: 0.9em;">
+  {% assign total_pubs = site.publications | size %}
+  {% for post in site.publications reversed %}
+    <li style="margin-bottom: 0.6em;">
+      [{{ total_pubs | minus: forloop.index0 }}]
+      <strong>{{ post.title }}</strong>.
+      {{ post.date | date: "%Y" }}.
+      {{ post.citation | remove: post.title }} 
+      <em>{{ post.venue }}</em>{% if post.issue %}, {{ post.issue }}{% endif %}{% if post.pages %}, {{ post.pages }}{% endif %}.
+    </li>
+  {% endfor %}
+</ul>
+
+
+
+
+
 
 Talks
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
+<ul style="list-style: none; padding-left: 0; font-size: 0.9em;">
+  {% assign total_talks = site.talks | size %}
+  {% for post in site.talks reversed %}
+    <li style="margin-bottom: 0.6em;">
+      [{{ total_talks | minus: forloop.index0 }}] 
+      <strong>{{ post.title }}</strong>,
+      {{ post.date | date: "%B %d, %Y" }},
+      {{ post.venue }},
+      {{ post.location }}
+    </li>
+  {% endfor %}
+</ul>
+
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+<ul style="list-style: none; padding-left: 0; font-size: 0.9em;">
+  {% for post in site.teaching reversed %}
+    <li style="margin-bottom: 0.6em;">
+      <strong>{{ post.title }}</strong>,
+      {{ post.date | date: "%B %Y" }},
+      {{ post.venue }}
+    </li>
+  {% endfor %}
+</ul>
+
