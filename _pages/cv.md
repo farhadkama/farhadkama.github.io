@@ -27,18 +27,13 @@ Publications
   {% for post in site.publications reversed %}
     <li style="margin-bottom: 0.6em;">
       [{{ total_pubs | minus: forloop.index0 }}]
-      <strong>{{ post.title }}</strong>.
-      {{ post.date | date: "%Y" }}.
-      {{ post.citation | remove: post.title }} 
+      <strong>{{ post.authors }}</strong>
+      ({{ post.date | date: "%Y" }}).
+      {{ post.title }}.
       <em>{{ post.venue }}</em>{% if post.issue %}, {{ post.issue }}{% endif %}{% if post.pages %}, {{ post.pages }}{% endif %}.
     </li>
   {% endfor %}
 </ul>
-
-
-
-
-
 
 Talks
 ======
