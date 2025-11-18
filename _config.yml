@@ -17,6 +17,8 @@ url                      : https://farhadkama.github.io # the base hostname & pr
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "farhadkama/farhadkama.github.io"
 
+keywords: "phase-field, phase-field fracture,fracture mechanics, computational mechanics, FEniCSx, finite element method, crack propagation, crack nucleation, nonlinear mechanics, viscoelasticity, soft materials, elastomers, PDEs, numerical methods, damage mechanics, Griffith fracture, phase-field modeling, viscoelastic phase-field model, phase field"
+
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
@@ -25,7 +27,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Farhad Kamarei"
   pronouns         : #"he/him"  
-  bio              : "PhD candidate at UIUC working on numerical methods for PDEs in theoretical and applied mechanics"
+  bio              : "PhD candidate at U of I working on numerical methods for PDEs in theoretical and applied mechanics"
   location         : "Urbana, Illinois"
   employer         : "University of Illinois Urbana-Champaign"
   uri              : # URL
